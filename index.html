@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+ <link href="css/general.css" rel="stylesheet">
+<title>Book Club Form</title>
+</head>
+
+<h1>Book Club Form</h1>
+
+	<form>
+
+		<div>
+			<label for="name">Name</label>
+			<input type="name" id"name" class="input-text" maxlength="256">
+		</div>
+        
+        <div>
+			<label for="email">E-mail address</label>
+			<input type="email" id"email" class="input-text" maxlength="256">
+		</div>
+        
+        <div>
+			<label for="address">Address</label>
+			<input type="address" id"address" class="input-text" maxlength="256">
+		</div>
+        
+        <div>
+			<label for="city">City</label>
+			<input type="city" id"city" class="input-text" maxlength="256">
+		</div>
+        
+        <div>
+			<label for="province">Province</label>
+			<select id="province">
+				<option></option>
+				<option>Ontario</option>
+                <option>Quebec</option>
+				<option>Birtish Columbia</option>
+                <option>Alberta</option>
+				<option>Nova Scotia</option>
+                <option>New Brunswick</option>
+                <option>Manitoba</option>
+                <option>Saskatchewan</option>
+                <option>Prince Edward Island</option>
+                <option>Newfoundland</option>
+			</select>
+		</div>
+        
+        <div>
+			<label for="postalcode">Postal Code</label>
+			<input type="city" id"city" class="input-text" maxlength="7">
+		</div>
+        
+        <div>
+			<label for="time">Best Time of Day</label>
+			<input type="time" id"time" class="input-type">
+		</div>
+        
+        
+       	 <fieldset>
+			<legend class="title">How much do you love this genre?</legend>
+			<input type="radio" id="extreme-bad" name="satisfaction">
+			<label for="extreme-bad">Extremley dissatisfied</label>
+
+			<input type="radio" id="extreme-bad" name="satisfaction">
+			<label for="bad">Dissatisfied</label>
+
+			<input type="radio" id="extreme-bad" name="satisfaction">
+			<label for="neutral">Neutral</label>
+
+			<input type="radio" id="extreme-bad" name="satisfaction">
+			<label for="good">Satisfied</label>
+
+			<input type="radio" id="extreme-bad" name="satisfaction">
+			<label for="extreme-good">Extremley Satisfied</label>      
+		</fieldset>
+  
+        
+        
+        <button type="submit">Send</button>
+        
+    </form>
+ 
+<body>
+</body>
+</html>
